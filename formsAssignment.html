@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coded iQ</title>
+</head>
+<body>
+  <h1>
+    iQ form
+  </h1>
+  <form action="submit_page.php" method="post">
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname" placeholder="Paul" required>
+    <br>
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname" placeholder="Andrews" required>
+    <br>
+    <label for="middlename">Middle Name</label>
+    <input type="text" id="middlename" placeholder="Diamond">
+    <br>
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="eg, coded" required>
+    <br>
+    <label for="Phone_number">Phone number</label>
+    <input type="tel" id="Phone_nunber" min="11" max="11" step="1" placeholder="0706*****" required>
+    <br>
+    <label for="email">email</label>
+    <input type="email" id="email" pattern="a-z" placeholder="yourname@domainname.com" required>
+    <br>
+    <label for="password">password</label>
+    <input type="password" id="Password" placeholder="input password" required>
+    <br>
+    <label for="dob">DOB</label>
+    <input type="date" id="dob" name="dob" placeholder="date of birth" required>
+    <br>
+    <label for="avatar">Prefered DP</label>
+    <input type="file" id="avatar" name="avatar" accept="image/jpg, image/png">
+    <br>
+    <input type="submit" value="accept">
+    <label for="subscription">Click to Subcribe</label>
+    <input type="checkbox" id="subscription" name="Subscription">
+    <br>
+    <label>
+      Music<input type="checkbox" name="intesrest" value="music">
+    </label>
+    <label>
+      Sports<input type="checkbox" name="interest" value="Sports">
+    </label>
+    <label>
+     Games <input type="checkbox" name="interest" value="Games">
+      
+    </label>
+    <br>
+    <label>M<input type="radio" name="gender" value="Male"></label>
+    <label>F<input type="radio" name="gender" value="Female"></label>
+    <br>
+    <label>Gamer?</label>
+    <br>
+    <label>Yes<input type="radio" name="gamer" value="Yes"></label>
+    <br>
+    <label>No<input type="radio" name="gamer" value="No"></label>
+    <br>
+    <label for="color">Preferred profile color</label>
+    <input type="color" id="color" name="profilecolor">
+    <br>
+    <label for="range">Rate your dancing skill</label>
+    <input type="range" min="1" max="90">
+    <label for="country"></label>
+    <br>
+    <select id="country" name="country">
+      <option>Select Country</option>
+      <option value="ng">Nigeria</option>
+      <option value="usa">United States of America</option>
+      <option value="cmb">Cambodia</option>
+      <option value="ca">Canada</option>
+    </select>
+    <br>
+    <label for="bio">Bio</label>
+    <textarea id="bio" name="bio" rows="5" cols="20" placeholder="Tell us a little about you"></textarea>
+    <br>
+    <button>Save and Continue</button>
+    
+    
+  </form>
+</body>
+</html>
 
